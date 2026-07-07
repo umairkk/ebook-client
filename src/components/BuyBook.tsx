@@ -32,7 +32,13 @@ export default function BuyBook() {
         <div className="buy-grid">
           {formats.map((f) => (
             <div className="buy-card" key={f.name}>
-              <img src={asset(f.img)} alt={`${f.name} edition`} />
+              <img
+                src={asset('images/real/book-cover.jpg')}
+                alt={`${f.name} edition`}
+                onError={(event) => {
+                  event.currentTarget.src = asset(f.img)
+                }}
+              />
               <h3>{f.name}</h3>
               <p className="format-desc">{f.desc}</p>
               <div className="price">{f.price}</div>

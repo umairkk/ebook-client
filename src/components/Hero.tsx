@@ -10,7 +10,13 @@ export default function Hero() {
     >
       <div className="container">
         <div className="hero-book">
-          <img src={asset('images/book-cover.svg')} alt="The Battle of Do Ab book cover" />
+          <img
+            src={asset('images/real/book-cover.jpg')}
+            alt="The Battle of Do Ab book cover"
+            onError={(event) => {
+              event.currentTarget.src = asset('images/book-cover.svg')
+            }}
+          />
         </div>
 
         <div className="hero-content">

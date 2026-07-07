@@ -1,54 +1,37 @@
 import { asset } from '../asset'
 
-const authors = [
-  {
-    id: 'justin-foote',
-    name: 'LTC Justin Foote',
-    role: 'U.S. Army (Ret.) / Combat Veteran',
-    photo: '/images/author-foote.svg',
-    alt: 'LTC Justin Foote in uniform',
-    reverse: false,
-    bio: [
-      'Justin Foote has dedicated more than twenty-eight years to the United States Army, rising from the enlisted ranks to earn his commission. His extensive career spans nearly three decades, leading across diverse operational, recruiting, training, logistics, and command assignments.',
-      'A combat veteran of Afghanistan, Justin writes from firsthand experience at the intersection of military service and family life. Though the raw realities of leadership and service under pressure are woven throughout his career, they remain at the forefront of his mind.',
-      'This book stands as a testament to Justin\'s journey. It is a memoir to the resilient soldiers who served alongside him and to the family relationships that endured through it.',
-      'Justin resides in Iowa with his wife, Laura, and their children, Owen and Kyra.',
-    ],
-  },
-  {
-    id: 'john-kelling',
-    name: 'John Kelling',
-    role: 'Author · Broadcaster · Journalist',
-    photo: '/images/author-kelling.svg',
-    alt: 'John Kelling',
-    reverse: true,
-    bio: [
-      'John Kelling was a graduate of Minnesota State University, Mankato with a field of study in broadcasting and journalism. His work included various groups, most notably WHO Radio, ESPN, Fox Sports, and the Big Ten Network. In recent years he was a blog writer for several sports outlets.',
-      'The blog on his son\'s deployment to Afghanistan led to the writing of his first book, Hope is a Weapon. Though the Battle of Do Ab was spoken of briefly in his earlier work it remained at the forefront of his mind. This book is a testament to John\'s final career as a writer. It is a memoir to the faithful men who fought the battle and to the God who reigned over it.',
-      'John is a native of Iowa where he and his wife Joanne happily raised their three sons, Kristopher, Jonathan, and Jordan.',
-    ],
-  },
-]
-
 export default function Authors() {
   return (
     <section id="authors" className="section authors" style={{ ['--authors-bg' as string]: `url('${asset('images/hero-bg.svg')}')` }}>
       <div className="container">
-        {authors.map((a) => (
-          <article key={a.id} className={`author-card${a.reverse ? ' reverse' : ''}`}>
-            <div className="author-photo">
-              <img src={asset(a.photo)} alt={a.alt} />
-            </div>
-            <div className="author-body">
-              <p className="eyebrow">About the Author</p>
-              <h3 className="author-name">{a.name}</h3>
-              <div className="author-role">{a.role}</div>
-              {a.bio.map((p, i) => (
-                <p key={i}>{p}</p>
-              ))}
-            </div>
-          </article>
-        ))}
+        <article className="author-card">
+          <div className="author-photo">
+            <img
+              src={asset('images/real/justin-foote.jpg')}
+              alt="LTC Justin Foote in uniform"
+              onError={(event) => {
+                event.currentTarget.src = asset('images/author-foote.svg')
+              }}
+            />
+          </div>
+          <div className="author-body">
+            <p className="eyebrow">About the Author</p>
+            <h3 className="author-name">LTC Justin Foote</h3>
+            <p>
+              Justin Foote is a retired Army Lieutenant Colonel with over 20 years of service. He
+              deployed to Afghanistan in 2010-2011 as a platoon leader with the 2nd Battalion, 503rd
+              Infantry Regiment, 173rd Airborne Brigade.
+            </p>
+            <p>
+              His experiences in leadership, combat, and sacrifice inspired him to write
+              <em> Miraculous Turn of Events: The Battle of Do Ab</em>, a memoir honoring his
+              Soldiers and their extraordinary courage.
+            </p>
+            <a href="#contact" className="btn btn-outline author-button">
+              Read More About Justin
+            </a>
+          </div>
+        </article>
       </div>
     </section>
   )
