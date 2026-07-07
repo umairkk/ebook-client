@@ -1,3 +1,4 @@
+import { asset } from '../asset'
 import { CartIcon } from './icons'
 
 export default function Hero() {
@@ -5,11 +6,11 @@ export default function Hero() {
     <header
       id="home"
       className="hero"
-      style={{ ['--hero-bg' as string]: "url('/images/hero-bg.svg')" }}
+      style={{ ['--hero-bg' as string]: `url('${asset('images/hero-bg.svg')}')` }}
     >
       <div className="container">
         <div className="hero-book">
-          <img src="/images/book-cover.svg" alt="The Battle of Do Ab book cover" />
+          <img src={asset('images/book-cover.svg')} alt="The Battle of Do Ab book cover" />
         </div>
 
         <div className="hero-content">

@@ -1,3 +1,5 @@
+import { asset } from '../asset'
+
 const images = [
   { src: '/images/gallery-1.svg', alt: 'Chinook helicopter in flight' },
   { src: '/images/gallery-2.svg', alt: 'Soldiers preparing for a mission' },
@@ -16,7 +18,7 @@ export default function Gallery() {
         <div className="gallery-grid">
           {images.map((img) => (
             <figure key={img.src}>
-              <img src={img.src} alt={img.alt} loading="lazy" />
+              <img src={asset(img.src)} alt={img.alt} loading="lazy" />
             </figure>
           ))}
         </div>

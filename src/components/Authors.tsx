@@ -1,3 +1,5 @@
+import { asset } from '../asset'
+
 const authors = [
   {
     id: 'justin-foote',
@@ -29,7 +31,7 @@ const authors = [
 
 export default function Authors() {
   return (
-    <section id="authors" className="section authors" style={{ ['--authors-bg' as string]: "url('/images/hero-bg.svg')" }}>
+    <section id="authors" className="section authors" style={{ ['--authors-bg' as string]: `url('${asset('images/hero-bg.svg')}')` }}>
       <div className="container">
         <p className="eyebrow">About the Authors</p>
         <h2 className="section-title" style={{ color: 'var(--text-light)' }}>
@@ -39,7 +41,7 @@ export default function Authors() {
         {authors.map((a) => (
           <article key={a.id} className={`author-card${a.reverse ? ' reverse' : ''}`}>
             <div className="author-photo">
-              <img src={a.photo} alt={a.alt} />
+              <img src={asset(a.photo)} alt={a.alt} />
             </div>
             <div className="author-body">
               <p className="eyebrow">About the Author</p>

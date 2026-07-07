@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { asset } from '../asset'
 import { BookIcon, FlagIcon, MapIcon, ShieldIcon, StarIcon, UsersIcon } from './icons'
 
 const features: { icon: ReactNode; title: string; sub: string }[] = [
@@ -40,7 +41,7 @@ export default function AboutBook() {
           </div>
 
           <div className="about-image">
-            <img src="/images/about-book.svg" alt="Soldiers on patrol in Afghanistan" />
+            <img src={asset('images/about-book.svg')} alt="Soldiers on patrol in Afghanistan" />
           </div>
 
           <div className="feature-list">

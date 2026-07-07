@@ -1,3 +1,4 @@
+import { asset } from '../asset'
 import { CartIcon } from './icons'
 
 const formats = [
@@ -31,7 +32,7 @@ export default function BuyBook() {
         <div className="buy-grid">
           {formats.map((f) => (
             <div className="buy-card" key={f.name}>
-              <img src={f.img} alt={`${f.name} edition`} />
+              <img src={asset(f.img)} alt={`${f.name} edition`} />
               <h3>{f.name}</h3>
               <p className="format-desc">{f.desc}</p>
               <div className="price">{f.price}</div>
