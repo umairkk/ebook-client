@@ -6,4 +6,7 @@ export default defineConfig({
   // project sub-path (e.g. GitHub Pages: https://<user>.github.io/<repo>/).
   base: './',
   plugins: [react()],
+  preview: {
+    allowedHosts: ['.serveousercontent.com'],
+  },
 })
