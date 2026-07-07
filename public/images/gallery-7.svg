@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="The book with campaign medals">
+  <rect width="300" height="300" fill="#2a241a"/>
+  <rect x="70" y="60" width="130" height="180" rx="4" fill="#141009"/>
+  <text x="135" y="150" text-anchor="middle" fill="#cb4a1f" font-family="Oswald, sans-serif" font-size="20" font-weight="700">DO AB</text>
+  <g transform="translate(210 150)">
+    <rect x="-14" y="-40" width="28" height="40" fill="#8a1f2b"/>
+    <rect x="-14" y="-40" width="28" height="12" fill="#1f3a6b"/>
+    <circle cx="0" cy="14" r="20" fill="#c9a34e"/>
+    <path d="M0 -2 l6 12 14 2 -10 10 3 14 -13 -7 -13 7 3 -14 -10 -10 14 -2 Z" fill="#7a5c1f"/>
+  </g>
+</svg>

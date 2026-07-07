@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Chinook helicopter in flight">
+  <rect width="300" height="300" fill="#6d5f45"/>
+  <rect width="300" height="180" fill="#8f7d5c"/>
+  <path d="M0 210 L100 160 L200 200 L300 170 L300 300 L0 300 Z" fill="#4a4030"/>
+  <g fill="#171310">
+    <ellipse cx="150" cy="120" rx="70" ry="16"/>
+    <rect x="120" y="112" width="110" height="18" rx="7"/>
+    <rect x="60" y="86" width="240" height="9"/>
+    <rect x="225" y="116" width="52" height="8"/>
+    <rect x="112" y="130" width="14" height="18"/>
+    <rect x="200" y="130" width="14" height="18"/>
+  </g>
+</svg>

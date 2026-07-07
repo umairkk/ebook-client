@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Regimental insignia">
+  <rect width="300" height="300" fill="#20242b"/>
+  <circle cx="150" cy="150" r="92" fill="none" stroke="#c9a34e" stroke-width="6"/>
+  <circle cx="150" cy="150" r="74" fill="#2b3038"/>
+  <path d="M150 92 l16 34 38 4 -28 26 8 38 -34 -19 -34 19 8 -38 -28 -26 38 -4 Z" fill="#c9a34e"/>
+  <text x="150" y="240" text-anchor="middle" fill="#c9a34e" font-family="Oswald, sans-serif" font-size="18" letter-spacing="3">173RD</text>
+</svg>

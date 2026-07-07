@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Soldiers preparing for a mission">
+  <rect width="300" height="300" fill="#7a6a4b"/>
+  <path d="M0 220 L80 180 L160 220 L240 180 L300 210 L300 300 L0 300 Z" fill="#4f4230"/>
+  <g fill="#211a10">
+    <path d="M70 300 q8 -80 26 -92 q-8 -34 12 -38 q20 4 12 38 q18 12 22 92 Z"/>
+    <path d="M150 300 q9 -92 30 -104 q-9 -38 13 -42 q22 4 14 42 q20 14 24 104 Z"/>
+    <path d="M230 300 q7 -74 24 -86 q-7 -32 11 -36 q18 4 11 36 q16 12 20 86 Z"/>
+  </g>
+</svg>

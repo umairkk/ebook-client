@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500" role="img" aria-label="John Kelling">
+  <defs>
+    <linearGradient id="kbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d9cfbf"/>
+      <stop offset="1" stop-color="#b3a891"/>
+    </linearGradient>
+  </defs>
+  <rect width="500" height="500" fill="url(#kbg)"/>
+  <!-- head -->
+  <circle cx="250" cy="185" r="80" fill="#d8b89a"/>
+  <!-- grey hair / beard -->
+  <path d="M170 180 q4 -82 80 -82 q76 0 80 82 q-22 -30 -80 -30 q-58 0 -80 30 Z" fill="#9a9186"/>
+  <path d="M195 210 q10 60 55 62 q45 -2 55 -62 q-20 34 -55 34 q-35 0 -55 -34 Z" fill="#8f8579" opacity="0.8"/>
+  <!-- suit -->
+  <path d="M120 500 q10 -150 130 -172 q120 22 130 172 Z" fill="#2c3340"/>
+  <!-- shirt -->
+  <path d="M215 340 L250 500 L285 340 L250 320 Z" fill="#efe9df"/>
+  <!-- tie -->
+  <path d="M250 330 l-14 20 14 90 14 -90 Z" fill="#c9b8a0"/>
+  <!-- lapels -->
+  <path d="M215 340 L250 470 L235 340 Z" fill="#242a35"/>
+  <path d="M285 340 L250 470 L265 340 Z" fill="#242a35"/>
+</svg>

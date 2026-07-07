@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Soldiers on patrol">
+  <rect width="600" height="700" fill="#7a6543"/>
+  <rect width="600" height="700" fill="#8a744d" opacity="0.5"/>
+  <path d="M0 500 L120 420 L260 500 L400 400 L520 480 L600 440 L600 700 L0 700 Z" fill="#5c4a2e"/>
+  <path d="M0 560 L150 500 L320 560 L460 490 L600 550 L600 700 L0 700 Z" fill="#43351f"/>
+  <g fill="#2b2114">
+    <path d="M180 680 q10 -110 34 -128 q-10 -46 14 -52 q26 6 16 52 q24 22 30 128 Z"/>
+    <path d="M300 690 q12 -130 40 -150 q-12 -52 16 -60 q30 8 18 60 q28 26 34 150 Z"/>
+    <path d="M430 680 q9 -100 30 -118 q-9 -42 13 -48 q24 6 15 48 q22 20 27 118 Z"/>
+  </g>
+</svg>

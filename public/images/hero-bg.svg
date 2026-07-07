@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Military helicopters over mountains">
+  <defs>
+    <linearGradient id="hsky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b2418"/>
+      <stop offset="1" stop-color="#0e0b07"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#hsky)"/>
+  <path d="M0 620 L200 480 L420 600 L640 440 L900 600 L1200 470 L1600 590 L1600 900 L0 900 Z" fill="#1a140b"/>
+  <path d="M0 720 L260 600 L520 700 L820 560 L1120 700 L1400 620 L1600 700 L1600 900 L0 900 Z" fill="#100b06"/>
+  <g fill="#080604">
+    <g transform="translate(300 200)">
+      <ellipse cx="0" cy="0" rx="60" ry="16"/>
+      <rect x="-28" y="-6" width="95" height="16" rx="6"/>
+      <rect x="-90" y="-30" width="220" height="8"/>
+      <rect x="55" y="-4" width="46" height="7"/>
+    </g>
+    <g transform="translate(1150 300) scale(0.7)">
+      <ellipse cx="0" cy="0" rx="60" ry="16"/>
+      <rect x="-28" y="-6" width="95" height="16" rx="6"/>
+      <rect x="-90" y="-30" width="220" height="8"/>
+      <rect x="55" y="-4" width="46" height="7"/>
+    </g>
+  </g>
+</svg>
