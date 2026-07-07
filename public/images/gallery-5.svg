@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Soldiers advancing under fire">
+  <rect width="300" height="300" fill="#5c4f39"/>
+  <rect width="300" height="140" fill="#7d6b4c"/>
+  <circle cx="230" cy="70" r="40" fill="#c98a3a" opacity="0.5"/>
+  <path d="M0 210 L110 175 L220 210 L300 185 L300 300 L0 300 Z" fill="#39301f"/>
+  <g fill="#181209">
+    <path d="M90 300 q8 -78 26 -90 q-8 -32 12 -36 q20 4 12 36 q18 12 22 90 Z"/>
+    <path d="M180 300 q8 -70 24 -82 q-8 -30 12 -34 q20 4 12 34 q16 12 20 82 Z"/>
+  </g>
+</svg>

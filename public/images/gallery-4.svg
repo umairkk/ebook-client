@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Platoon on patrol">
+  <rect width="300" height="300" fill="#6f6047"/>
+  <path d="M0 210 L150 170 L300 210 L300 300 L0 300 Z" fill="#463a28"/>
+  <g fill="#1c160e">
+    <path d="M40 300 q6 -60 20 -70 q-6 -26 10 -30 q16 4 10 30 q14 10 16 70 Z"/>
+    <path d="M110 300 q7 -70 22 -80 q-7 -30 11 -34 q18 4 12 34 q16 12 18 80 Z"/>
+    <path d="M185 300 q7 -66 22 -76 q-7 -28 11 -32 q18 4 12 32 q16 10 18 76 Z"/>
+    <path d="M255 300 q6 -58 19 -68 q-6 -26 10 -30 q16 4 10 30 q13 10 15 68 Z"/>
+  </g>
+</svg>
